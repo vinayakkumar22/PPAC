@@ -14,10 +14,10 @@ public class VerifyLoginPage {
 		String Actual = driver.getTitle();
 		System.out.println("Title:"+ Actual);
 		if(Actual.equals(Expected)) {
-			System.out.println("Passed");
+			System.out.println("It Passed");
 		}
         else{
-        	System.out.println("Failed");
+        	System.out.println("It Failed");
         }
 		driver.quit();
 	}
